@@ -1,0 +1,58 @@
+@media screen and (max-width: 960px) {
+   #about-section {
+      flex-direction: column;
+    }
+    #about-section{
+      margin-bottom: 30px;
+    }
+    #about-section .about-image {
+      flex-basis: 100%;
+    }
+    #about-section .about-content {
+      flex-basis: 100%;
+      padding: 0 20px;
+    }
+}
+@media screen and (max-width:768px) {
+   #hero-section .hero-content .title {
+      font-size: 3.5rem;
+    } 
+}
+
+@media screen and (max-width:600px) {
+   #card-boxes-section {
+      padding: 80px 0 90px 0;
+    }
+   #card-boxes-section .box-container .cards-box {
+      flex-direction: column;
+    }
+    #card-boxes-section .box-container .cards-heading h2 {
+      font-size: 2.5rem;
+    }
+    #card-boxes-section .box-container .cards-box .card .card-info .card-offer{
+      font-size: 2.2rem;
+    }
+    #card-boxes-section .box-container .cards-box .card {
+     border-bottom: .5px solid #ccc;
+    }
+
+    #about-section .about-content .content h2 {
+      font-size: 2.5rem;
+      line-height: 3rem;
+    }
+    #about-section .about-content .content button {
+      height: 50px;
+    }
+    #hero-section .hero-content .title {
+      font-size: 3.5rem;
+      line-height: 3.5rem;
+    } 
+    #footer-section{
+      padding: 4rem 0 6rem 0;
+    }
+    #footer-section .footer-content .content h2{
+      font-size: 2.5rem;
+      line-height: 3.5rem;
+    }
+}
+
