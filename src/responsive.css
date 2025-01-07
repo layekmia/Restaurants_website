@@ -12,11 +12,15 @@
       flex-basis: 100%;
       padding: 0 20px;
     }
+    #about-section .about-content .content .social-section{
+      display: none;
+    }
 }
 @media screen and (max-width:768px) {
    #hero-section .hero-content .title {
       font-size: 3.5rem;
     } 
+  
 }
 
 @media screen and (max-width:600px) {
