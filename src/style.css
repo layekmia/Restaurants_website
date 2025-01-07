@@ -39,7 +39,7 @@ body {
       rgb(9, 9, 9) 2.884%,
       rgba(16, 16, 16, 0) 101.034%
     ),
-    url(../asset/hero-bg.png);
+    url("../asset/hero-bg.png");
   height: calc(920px * var(--scale-factor));
   background-size: cover;
   background-repeat: no-repeat;
@@ -271,7 +271,7 @@ body {
 
 #footer-section {
   padding: 8.56rem 0 13rem 0;
-  background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url(/asset/social-bg.png);
+  background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url(../asset/image_1.png);
 }
 #footer-section .footer-content {
   max-width: calc(1380px * var(--scale-factor));
